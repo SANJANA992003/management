@@ -1,0 +1,4 @@
+flask
+matplotlib
+seaborn
+sqlite3

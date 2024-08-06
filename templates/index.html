@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Budget Management</title>
+</head>
+<body>
+    <h1>Welcome to Personal Budget Management</h1>
+    <form action="/add_expense" method="post">
+        <input type="date" name="date" required>
+        <input type="text" name="description" placeholder="Description" required>
+        <input type="text" name="category" placeholder="Category" required>
+        <input type="number" name="amount" placeholder="Amount" step="0.01" required>
+        <button type="submit">Add Expense</button>
+    </form>
+    <a href="/view_expenses">View Expenses</a>
+    <a href="/visualize_expenses">Visualize Expenses</a>
+</body>
+</html>
